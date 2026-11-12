@@ -1,90 +1,65 @@
 [
   {
-    "name": "Demo 1",
-    "slug": "d",
-    "category": "Other",
-    "description": "Live website demo available for client preview.",
-    "vercelUrl": "https://ksic-website.vercel.app/",
+    "name": "Safe Wheels Group",
+    "slug": "safe-wheels-group",
+    "category": "Business & Corporate",
+    "description": "Safe Wheels Group website — companies, stories, and group presence.",
+    "vercelUrl": "https://safe-wheels-group-website-redesign.vercel.app/",
+    "thumbnail": "/templates/safe-wheels-group.png",
+    "featured": true
+  },
+  {
+    "name": "Safe Wheels",
+    "slug": "safe-wheels",
+    "category": "Business & Corporate",
+    "description": "Safe Wheels Tours & Travels — taxis, fleet, and Mysuru travel.",
+    "vercelUrl": "https://safewheels-website.vercel.app/",
+    "thumbnail": "/templates/safe-wheels.png",
+    "featured": true
+  },
+  {
+    "name": "Alliance Square",
+    "slug": "alliance-square",
+    "category": "Hotels & Homestays",
+    "description": "Alliance Square — hospitality and property showcase.",
+    "vercelUrl": "https://alliance-square.vercel.app/",
+    "thumbnail": "/templates/alliance-square.png",
     "featured": false
   },
   {
-    "name": "Demo 2",
-    "slug": "v2-ksic",
-    "category": "Fashion & Clothing",
-    "description": "Mysore Silk heritage site — woven for generations, collections and atelier storytelling.",
-    "vercelUrl": "https://v2-ksic.vercel.app/",
+    "name": "Open Jeep Tours",
+    "slug": "open-jeep-tours",
+    "category": "Landing Pages",
+    "description": "Open Jeep Tours — scenic rides and destination experiences.",
+    "vercelUrl": "https://open-jeep-tours-website.vercel.app/",
+    "thumbnail": "/templates/open-jeep-tours.png",
     "featured": false
   },
   {
-    "name": "Demo 3",
-    "slug": "ksicweb",
-    "category": "Fashion & Clothing",
-    "description": "Live website demo available for client preview.",
-    "vercelUrl": "https://ksicweb.vercel.app/",
+    "name": "Prashanth Personal Brand",
+    "slug": "prashanth-personal-brand",
+    "category": "Portfolio & Agency",
+    "description": "B.S. Prashanth personal brand website.",
+    "vercelUrl": "https://bs-prashanth-personal-brand-website-one.vercel.app/",
+    "thumbnail": "/templates/prashanth-personal-brand.png",
     "featured": false
   },
   {
-    "name": "Demo 4",
-    "slug": "ksic-mysore-silk",
-    "category": "Fashion & Clothing",
-    "description": "Mysore Silk — a timeless heritage. Collections, craft, and royal legacy since 1912.",
-    "vercelUrl": "https://ksic-mysore-silk.vercel.app/",
+    "name": "All CMS",
+    "slug": "all-cms",
+    "category": "SaaS & Technology",
+    "description": "All CMS — content management showcase.",
+    "vercelUrl": "https://all-cms.vercel.app/",
+    "thumbnail": "/templates/all-cms.svg",
     "featured": false
   },
   {
-    "name": "Demo 5",
-    "slug": "ksic-demo",
-    "category": "Fashion & Clothing",
-    "description": "KSIC Mysore Silk heritage weaves — royal mills, collections, and GI-certified silk since 1912.",
-    "vercelUrl": "https://ksic-demo.vercel.app/",
-    "featured": false
-  },
-  {
-    "name": "Demo 6",
-    "slug": "chethu-ksic-new",
-    "category": "Fashion & Clothing",
-    "description": "KSIC Mysore Silk royal heritage — collections, atelier, and stories woven since 1912.",
-    "vercelUrl": "https://chethu-ksic-new.vercel.app/",
-    "featured": false
-  },
-  {
-    "name": "Demo 7",
-    "slug": "ksic-demo-3",
-    "category": "Other",
-    "description": "Live website demo available for client preview.",
-    "vercelUrl": "https://ksic-demo-3.vercel.app/",
-    "featured": false
-  },
-  {
-    "name": "Demo 8",
-    "slug": "ksic-pi",
-    "category": "Fashion & Clothing",
-    "description": "Mysore Silk — woven for generations. Craft, collections, and heirloom storytelling.",
-    "vercelUrl": "https://ksic-pi.vercel.app/",
-    "featured": false
-  },
-  {
-    "name": "Demo 9",
-    "slug": "ksic-2-demo",
-    "category": "Fashion & Clothing",
-    "description": "Mysore Silk — woven for generations. Collections, journal, and royal heritage storytelling.",
-    "vercelUrl": "https://ksic-2-demo.vercel.app/",
-    "featured": false
-  },
-  {
-    "name": "Demo 10",
-    "slug": "ksic-1-demo",
-    "category": "Fashion & Clothing",
-    "description": "KSIC Mysore Silk institutional site — heritage, craft, GI-11 certification, and store network.",
-    "vercelUrl": "https://ksic-1-demo.vercel.app/",
-    "featured": false
-  },
-  {
-    "name": "Demo 11",
-    "slug": "pixel-perfection-studio",
-    "category": "Fashion & Clothing",
-    "description": "KSIC Mysore Silk — a legacy woven in silk. Heritage, craftsmanship, and signature weaves.",
-    "vercelUrl": "https://pixel-perfection-studio-791.lovable.app",
+    "name": "Spice Trip",
+    "slug": "spice-trip",
+    "category": "Landing Pages",
+    "description": "Spice Trip — travel experiences and journeys.",
+    "vercelUrl": "https://spice-trip.vercel.app/",
+    "thumbnail": "/templates/spice-trip.png",
     "featured": false
   }
 ]

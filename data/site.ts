@@ -1,10 +1,10 @@
 import type { SiteConfig } from "@/lib/types";
 
-/** KSIC gallery branding — matches the Design Gallery presentation layout. */
+/** Safe Wheels gallery branding. */
 export const siteConfig: SiteConfig = {
-  agencyName: "KSIC Demo",
-  organizationName: "Karnataka Silk Industries Corporation",
-  galleryTitle: "KSIC Website Demo",
+  agencyName: "SafeWheels",
+  organizationName: "SafeWheels",
+  galleryTitle: "All Website Demo",
   agencyTagline: "Design concepts for review. Each slot links to one design.",
-  logoSrc: "/brand/logo.avif",
+  logoSrc: "/brand/logo.jpg",
 };

@@ -56,7 +56,6 @@ export function LivePreviewThumb({ url, title }: LivePreviewThumbProps) {
         }}
         onError={() => setFailed(true)}
       />
-      <div className="absolute inset-0 z-[1]" aria-hidden />
     </div>
   );
 }

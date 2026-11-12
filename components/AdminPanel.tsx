@@ -127,7 +127,7 @@ export function AdminPanel() {
         setTemplates(data.templates);
         try {
           localStorage.setItem(
-            "ksic-templates",
+            "safewheels-templates",
             JSON.stringify(data.templates),
           );
         } catch {

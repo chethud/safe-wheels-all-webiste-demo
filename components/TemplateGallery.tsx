@@ -9,15 +9,25 @@ interface TemplateGalleryProps {
   templates: Template[];
 }
 
-const STORAGE_KEY = "ksic-templates";
+const STORAGE_KEY = "safewheels-templates";
 
 export function TemplateGallery({ templates }: TemplateGalleryProps) {
   const [items, setItems] = useState(templates);
 
   useEffect(() => {
+    setItems(templates);
+  }, [templates]);
+
+  useEffect(() => {
     let cancelled = false;
 
     async function refresh() {
+      try {
+        localStorage.removeItem("ksic-templates");
+      } catch {
+        /* ignore */
+      }
+
       try {
         const res = await fetch("/api/templates", { cache: "no-store" });
         if (!res.ok) return;
@@ -31,15 +41,7 @@ export function TemplateGallery({ templates }: TemplateGalleryProps) {
           }
         }
       } catch {
-        try {
-          const cached = localStorage.getItem(STORAGE_KEY);
-          if (cached) {
-            const parsed = JSON.parse(cached) as Template[];
-            if (!cancelled && Array.isArray(parsed)) setItems(parsed);
-          }
-        } catch {
-          /* ignore */
-        }
+        /* keep server props / current items */
       }
     }
 
