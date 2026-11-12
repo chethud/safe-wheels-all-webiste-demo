@@ -1,21 +1,12 @@
 [
   {
-    "name": "Safe Wheels Group",
-    "slug": "safe-wheels-group",
-    "category": "Business & Corporate",
-    "description": "Safe Wheels Group website — companies, stories, and group presence.",
-    "vercelUrl": "https://safe-wheels-group-website-redesign.vercel.app/",
-    "thumbnail": "/templates/safe-wheels-group.png",
-    "featured": true
-  },
-  {
     "name": "Safe Wheels",
     "slug": "safe-wheels",
     "category": "Business & Corporate",
     "description": "Safe Wheels Tours & Travels — taxis, fleet, and Mysuru travel.",
     "vercelUrl": "https://safewheels-website.vercel.app/",
     "thumbnail": "/templates/safe-wheels.png",
-    "featured": true
+    "featured": false
   },
   {
     "name": "Alliance Square",
@@ -27,12 +18,12 @@
     "featured": false
   },
   {
-    "name": "Open Jeep Tours",
-    "slug": "open-jeep-tours",
+    "name": "Spice Trip",
+    "slug": "spice-trip",
     "category": "Landing Pages",
-    "description": "Open Jeep Tours — scenic rides and destination experiences.",
-    "vercelUrl": "https://open-jeep-tours-website.vercel.app/",
-    "thumbnail": "/templates/open-jeep-tours.png",
+    "description": "Spice Trip — travel experiences and journeys.",
+    "vercelUrl": "https://spice-trip.vercel.app/",
+    "thumbnail": "/templates/spice-trip.png",
     "featured": false
   },
   {
@@ -45,21 +36,30 @@
     "featured": false
   },
   {
+    "name": "Open Jeep Tours",
+    "slug": "open-jeep-tours",
+    "category": "Landing Pages",
+    "description": "Open Jeep Tours — scenic rides and destination experiences.",
+    "vercelUrl": "https://open-jeep-tours-website.vercel.app/",
+    "thumbnail": "/templates/open-jeep-tours.png",
+    "featured": false
+  },
+  {
+    "name": "Safe Wheels Group",
+    "slug": "safe-wheels-group",
+    "category": "Business & Corporate",
+    "description": "Safe Wheels Group website — companies, stories, and group presence.",
+    "vercelUrl": "https://safe-wheels-group-website-redesign.vercel.app/",
+    "thumbnail": "/templates/safe-wheels-group.png",
+    "featured": false
+  },
+  {
     "name": "All CMS",
     "slug": "all-cms",
     "category": "SaaS & Technology",
     "description": "All CMS — content management showcase.",
     "vercelUrl": "https://all-cms.vercel.app/",
     "thumbnail": "/templates/all-cms.svg",
-    "featured": false
-  },
-  {
-    "name": "Spice Trip",
-    "slug": "spice-trip",
-    "category": "Landing Pages",
-    "description": "Spice Trip — travel experiences and journeys.",
-    "vercelUrl": "https://spice-trip.vercel.app/",
-    "thumbnail": "/templates/spice-trip.png",
     "featured": false
   }
 ]

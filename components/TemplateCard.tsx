@@ -21,7 +21,13 @@ export function TemplateCard({ template, number }: TemplateCardProps) {
       className="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-[0_2px_12px_rgba(40,20,20,0.06)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_28px_rgba(40,20,20,0.1)]"
     >
       <div className="relative aspect-[16/11] overflow-hidden bg-[#f3efeb]">
-        {hasThumbnail ? (
+        {liveUrl ? (
+          <LivePreviewThumb
+            url={liveUrl}
+            title={template.name}
+            fallbackSrc={hasThumbnail ? template.thumbnail : undefined}
+          />
+        ) : hasThumbnail ? (
           <div className="absolute inset-0 flex items-center justify-center p-8">
             <Image
               src={template.thumbnail!}
@@ -31,8 +37,6 @@ export function TemplateCard({ template, number }: TemplateCardProps) {
               className="max-h-full w-auto max-w-[78%] object-contain transition-transform duration-500 group-hover:scale-[1.04]"
             />
           </div>
-        ) : liveUrl ? (
-          <LivePreviewThumb url={liveUrl} title={template.name} />
         ) : (
           <div className="flex h-full flex-col items-center justify-center gap-2 px-6 text-center">
             <p className="text-sm font-medium text-charcoal/55">
